@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../static/favicon.ico">
+    <link rel="stylesheet" href="../static/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/plugins/layui/css/layui.css">
+    <link rel="stylesheet" href="../static/plugins/pace/themes/blue/pace-theme-minimal.css">
+    <link rel="stylesheet" href="../static/css/common/style.css">
+    <link rel="stylesheet" href="../static/css/register/main.css">
+    <script type="text/javascript" src="../static/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/plugins/layui/layui.all.js"></script>
+    <script type="text/javascript" src="../static/plugins/pace/pace.min.js"></script>
+    <script type="text/javascript" src="../static/js/common/jquery-extends.js"></script>
+    <script type="text/javascript" src="../static/js/common/include.js"></script>
+    <script type="text/javascript" src="../static/js/common/layer-extends.js"></script>
+    <!-- <script type="text/javascript" src="../static/js/common/include.js"></script> -->
+    <!-- <script type="text/javascript" src="../static/js/common/constants.js"></script> -->
+    <script type="text/javascript" src="../static/js/register/main.js"></script>
+    <title>小洋匠注册</title>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <div class="app-name">
+            <p>注册小洋匠</p>
+        </div>
+    </div>
+    <div class="content">
+        <form class="register">
+            <div class="placeholder"></div>
+            <div class="input-text">       
+                <img src="../static/images/phone.png" class="img" id="phone-number-img" name="phoneNumberImg">
+                <div class="country-code-img" id="countryId">
+                    <img class="common-img" id="country-code-img" name="countryCodeImg"/>
+                    <p class="country-code"></p>
+                </div>    
+                <input type="input" class="phone-number" id="phone-number" name="phoneNumber" placeholder="请输入手机号码" maxlength="11">
+            </div>
+            <div class="country-list">
+                <div class="cl-item" id="template">
+                    <img class="common-img" id="cImg"></img>
+                    <span class="span-item" id="cCode"></span>
+                </div>
+            </div>
+            <div class="input-text">
+                <img src="../static/images/verification-code.png" class="img" id="graphic-verification-code-img" name="graphicVerificationCodeImg">
+                <input type="input" class="graphic-verification-code" id="graphic-verification-code" name="graphicVerificationCode" placeholder="请输入图形验证码" maxlength="6">
+                <img alt="验证码" id="img-code" src="" style="width:60px;height:30px;position:absolute;right:5%;padding-bottom:5px"/>
+            </div>
+            <div class="input-text">
+                <img src="../static/images/verification-code.png" class="img" id="verification-code-img" name="verificationCodeImg">
+                <input type="input" class="verification-code" id="verification-code" name="verificationCode" placeholder="请输入验证码" maxlength="6">
+                <div class="vertical-bar"></div>
+                <p class="send-verification-code" id="send-verCode">发送验证码</p>
+            </div>
+            <div class="input-text">
+                <img src="../static/images/password.png" class="img" id="password-img" name="passwordImg"/>
+                <input type="password" class="password" id="password" name="password" placeholder="请输入密码(长度在6-18位,字母开头)" maxlength="18" minlength="6">
+            </div>
+            <div class="input-text">
+                <p>邀请码</p>
+                <p class="invite-code" id="inviteCode"></p>
+            </div>
+            <div class="register-btn" id="register-btn" name="registerBtn">
+                <p>注&nbsp;&nbsp;&nbsp;&nbsp;册</p>
+            </div>
+            <p class="agree">点击注册即同意“服务条款”和“隐私权相关政策”</p>
+        </form>
+    </div>
+    <div class="register-success-show">
+        <div class="register-success">
+            <div class="placeholder-one"><img style="height: 300px;width: 100%" src="../static/images/success.png" id="successImg"></img></div>
+            <p class="success">注册成功</p>
+            <p class="download">长按二维码下载小洋匠app</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+

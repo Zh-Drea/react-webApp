@@ -1,0 +1,249 @@
+html{
+    width:100%;
+    height:100%;
+    background-color:#FED584;
+    font-family:微软雅黑;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#FED584;
+    width:100%;
+    height:100%;
+/*    max-width:600px;*/
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #FED584;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 0.05px;
+    border-bottom-style: solid;
+    border-color: #2F2F2F;
+    background-color: #2F2F2F;
+    border-bottom-color: black;
+}
+.back{
+    width: 30px;
+    height: 30px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: flex-end;
+}
+.back-img{
+    width:18px;
+    height:18px;
+}
+.app-name{
+    margin:0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-name p{
+    font-size: 15px;
+    color:white;
+}
+.content{
+    width:100%;
+    /*height:100%;*/
+    background-color:#FED584;
+    background: url('../../images/xiaoyangjiang-bg.png');
+    background-size: 100% 100%;
+    /*-moz-background-size:150% 100%;*/
+    position:relative;
+}
+.register{
+    position: absolute;
+    width:80%;
+    background-color:white;
+    margin-left:10%;
+    padding-bottom:15px;
+    position:absolute;
+    top:33%;
+    margin-bottom:15px;
+}
+.input-text{
+    width:90%;
+    border-width:1px;
+    border-color:transparent;
+    border-bottom-width:1px;
+    border-bottom-color:black;
+    border-bottom-style:solid;
+    margin-left:5%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding-top:10px;
+    margin-top:5px;
+    padding-bottom:10px;
+    position:relative;
+}
+.placeholder{
+    width:100%;
+    height:10px;
+}
+.placeholder-one{
+     width:100%;
+     height:70px;
+ }
+.img{
+    width:21px;
+    height:21px;
+}
+.choose{
+    position:absolute;
+    border-width:1px;
+    left:calc(5% + 56px);
+    display:flex;
+    flex-direction:column;
+    margin-top:50px;
+    display:none;
+    background-color:#F0F0F0;
+    border-style:solid;
+    border-color:#F0F0F0;
+    border-radius:5px;
+    z-index:10000;
+}
+.country-code-img{
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px
+    width:30px;
+    height:21px;
+    margin-left:15px;
+}
+.country-code{
+    width:30px;
+    margin-left:3px;
+    vertical-align: center
+}
+.invite-code{
+    width:60%;
+    margin-left:10px;
+}
+.register-btn{
+    width:84%;
+    height:40px;
+    border-radius:20px;
+    background-color: #CCCCCC;
+    margin-left:10%;
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.register-btn p{
+    font-size:20px;
+    color:white;
+}
+.agree{
+    font-size:9px;
+    color:#969696;
+    text-align:center;
+    margin-top:17px;
+}
+input::-webkit-input-placeholder{
+    color:#BABABA;
+}
+input{
+    color:#3E3E3E;
+}
+.phone-number{
+    width:70%;
+    border-color:transparent;
+    margin-left:23px;
+}
+.verification-code{
+     width:47%;
+     border-color:transparent;
+     margin-left:10px;
+}
+.graphic-verification-code{
+     width:60%;
+     border-color:transparent;
+     margin-left:10px;
+}
+.password{
+     width:100%;
+     border-color:transparent;
+     margin-left:10px;
+     font-size:12.5px;
+}
+.vertical-bar{
+    width:1px;
+    height:30px;
+    background-color:#CBCBCB;
+}
+.send-verification-code{
+    font-size:15px;
+    color:#242424;
+    margin-left:10px;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:5%;
+}
+.register-success{
+    width:74%;
+    height:300px;
+    position:absolute;
+    top:180px;
+    left:13%;
+}
+.register-success-show{
+    width:100%;
+    height:100%;
+    position:absolute;
+    display:none;
+    background-color:rgba(14,14,14,0.5);
+    top:0;
+}
+.success{
+    text-align:center;
+    color:#000000;
+    font-size:18px;
+    font-weight:bold;
+}
+.download{
+    font-size:13px;
+    color:#676767;
+    text-align:center;
+    margin-top:170px;
+}
+.country-list{
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    margin-left: 50px;
+    z-index: 1000;
+    box-shadow: 2px 2px 5px #999;
+}
+.common-img{
+    width: 30px;
+    height: 20px
+}
+.cl-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px
+}
+.span-item{
+    margin-top: 5px
+}
+.return-img{
+    width:50%;
+    height:120px;
+    position:absolute;
+    top:132px;
+    left:25%;
+}
